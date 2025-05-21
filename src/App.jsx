@@ -76,7 +76,6 @@ const linear_gradient = (start_hex, finish_hex = "#FFFFFF", n = 10) => {
 // Define los datos de los materiales con sus valores asociados
 const materialData = [
   { name: 'Hierro', value: 26.3 },
-  { name: 'Agua', value: 75.4 },
   { name: 'Aluminio', value: 24.6 },
   { name: 'Cobre', value: 24.8 },
 ];
@@ -209,6 +208,9 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
+        <p>
+          Simulación de un intercambio de calor
+        </p>
         <img src={logo} className="App-logo" alt="logo" />
         {/* Your new square element */}
         <div className="squares-container max-w-md mx-auto relative flex items-center justify-center gap-4"
