@@ -40,3 +40,21 @@
 button {
   font-size: calc(10px + 2vmin);
 }
+
+/* Define the base styles for a square block */
+.square-block {
+  width: 100px; /* Equivalent to w-24 (which is 96px, close enough to 100px) */
+  height: 100px; /* Equivalent to h-24 */
+  border-radius: 0.5rem; /* Equivalent to rounded-lg */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* Equivalent to shadow-md */
+  transition: background-color 0.2s ease-in-out; /* Equivalent to transition-colors duration-200 ease-in-out */
+}
+
+/* Container for the squares to make them appear side-by-side */
+.squares-container {
+  display: flex; /* Makes children (the squares) display in a row */
+  align-items: center; /* Vertically centers items in the container */
+  justify-content: center; /* Horizontally centers items in the container */
+  gap: 5px; /* Adds space between the squares (alternative to space-x-5 which adds margin to elements) */
+  margin-bottom: 2rem; /* Equivalent to mb-8, adds space below the squares container */
+}

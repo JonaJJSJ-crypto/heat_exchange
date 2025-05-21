@@ -1,93 +1,23 @@
-<h1 align="center">
-  Vite Template React
-</h1>
+# **Simulador de Equilibrio Térmico**
 
-<p align="center">
-  <a href="https://github.com/SafdarJamal/vite-template-react/releases">
-    <img src="https://img.shields.io/github/v/release/SafdarJamal/vite-template-react" alt="GitHub Release (latest by date)" />
-  </a>
-  <a href="https://github.com/SafdarJamal/vite-template-react/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/SafdarJamal/vite-template-react" alt="License" />
-  </a>
-</p>
+## por: Jonathan Joel Sánchez Jácome MSc.
 
-<p align="center">
-    A <a href="https://vitejs.dev">Vite</a> + <a href="https://react.dev">React</a> starter template.
-</p>
+En este simulador se muestra el intercambio de calor entre dos cuerpos representados por cubos. Cada cubo tiene un deslizador que nos permite controlar la temperatura y la masa de cada uno. Esto nos permite estudiar empíricamente cuál es la temperatura en que se alcanza el equilibrio térmico.
 
-![Vite Template React](https://github.com/SafdarJamal/vite-template-react/assets/48409548/4b1eb99e-01b8-4752-91c0-76930e7948c1)
+En esta versión, ambos cuerpos tienen la misma capacidad calorífica, pero se plantea implementar esta prestación en futuras versiones. Si tienes algún inconveniente o sugerencia para este simulador, contacta a: **jjsanchezj@outlook.com**.
 
-## Folder Structure
+---
 
-No configuration or complicated folder structures, just the files you need to build your app:
+## **Modo de uso:**
 
-```
-vite-template-react
-├── node_modules
-├── public
-│   ├── favicon.svg
-│   └── robots.txt
-└── src
-    ├── App.css
-    ├── App.jsx
-    ├── App.test.jsx
-    ├── index.css
-    ├── index.jsx
-    └── logo.svg
-    └── setupTests.js
-├── .gitignore
-├── index.html
-├── package.json
-├── README.md
-├── vite.config.js
-```
+Este programa está hecho en Google Colaboratory.
 
-## Development
+1. Para inicializar el programa, presiona **"Ctrl + F9"** o presiona el botón con el símbolo **(▶)**.
+2. Una vez ejecutado, en tu pantalla deben aparecer dos bloques de color **azul pálido**.
+3. Inicialmente, ambos bloques aparecen con una temperatura de **1 grado centígrado** y una masa de **100 gramos**.
+4. Siéntete libre de modificar estas cantidades de acuerdo con la experiencia que desees realizar.
+5. Para iniciar el intercambio de calor, presiona el botón |**▶ Play**| que aparece debajo de los controles de temperatura.
+6. Observa el intercambio de calor en **tiempo real**.
+7. Repite el experimento cuantas veces gustes.
 
-To get a local copy of the code, clone it using git:
-
-```
-git clone https://github.com/SafdarJamal/vite-template-react.git
-cd vite-template-react
-```
-
-Make it your own:
-
-```
-rm -rf .git && git init && npm init
-git add .
-git commit -m "Initial commit"
-```
-
-Install dependencies:
-
-```
-npm i
-```
-
-Now, you can start a local web server by running:
-
-```
-npm start
-```
-
-And then open http://localhost:3000 to view it in the browser.
-
-#### Available Scripts
-
-In this project, you can run the following scripts:
-
-| Script        | Description                                             |
-| ------------- | ------------------------------------------------------- |
-| npm start     | Runs the app in the development mode.                   |
-| npm test      | Launches the test runner in the interactive watch mode. |
-| npm run build | Builds the app for production to the `dist` folder.     |
-| npm run serve | Serves the production build from the `dist` folder.     |
-
-## Credits
-
-Vite Template React is built and maintained by [Safdar Jamal](https://safdarjamal.github.io).
-
-## License
-
-This project is licensed under the terms of the [MIT license](https://github.com/SafdarJamal/vite-template-react/blob/main/LICENSE).
+¡Disfruta explorando el equilibrio térmico! 🔥❄️
