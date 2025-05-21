@@ -21,3 +21,5 @@ Este programa está hecho en Google Colaboratory.
 7. Repite el experimento cuantas veces gustes.
 
 ¡Disfruta explorando el equilibrio térmico! 🔥❄️
+
+This uses the template from https://github.com/SafdarJamal/vite-template-react.git
