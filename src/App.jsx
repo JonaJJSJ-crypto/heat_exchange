@@ -211,7 +211,10 @@ const App = () => {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         {/* Your new square element */}
-        <div className="squares-container">
+        <div className="squares-container max-w-md mx-auto relative flex items-center justify-center gap-4"
+        style={{
+          height: "210px", // Tamaño fijo del contenedor
+        }}>
           <div
             className="w-24 h-24 rounded-lg shadow-md transition-colors duration-200 ease-in-out"
             style={{
@@ -273,7 +276,7 @@ const App = () => {
             type="range"
             id="sizeSlider1"
             min="50" // Slider min value corresponds to the first index of the gradient array
-            max="300" // Slider max value corresponds to the last index of the gradient array
+            max="200" // Slider max value corresponds to the last index of the gradient array
             value={sizeIndex1}
             onChange={handleSliderMass1}
             disabled={isAnimating} // Disable slider when animating
@@ -290,7 +293,7 @@ const App = () => {
             type="range"
             id="sizeSlider2"
             min="50" // Slider min value corresponds to the first index of the gradient array
-            max="300" // Slider max value corresponds to the last index of the gradient array
+            max="200" // Slider max value corresponds to the last index of the gradient array
             value={sizeIndex2}
             onChange={handleSliderMass2}
             disabled={isAnimating} // Disable slider when animating
@@ -347,6 +350,14 @@ const App = () => {
             ▶ Play
           </button>
         </p>
+        <a
+          className="text-blue-300 hover:underline"
+          href="https://github.com/JonaJJSJ-crypto/heat_exchange/blob/main/README.md"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Instrucciones de uso
+        </a>
 
       </header>
     </div>
