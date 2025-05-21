@@ -1,13 +1,18 @@
 {
-	"name": "vite-template-react",
-	"version": "1.4.0",
+	"name": "heat_exchange",
+	"version": "0.1.0",
+	"description": "A React application for heat exchange calculations.",
+	"author": "Jonathan Sánchez",
+	"homepage": "https://jonajjsj-crypto.github.io/heat_exchange/",
 	"type": "module",
 	"scripts": {
 		"start": "vite --port 3000 --open",
 		"dev": "vite --port 3000 --open",
 		"build": "vite build",
 		"serve": "vite preview --open",
-		"test": "vitest"
+		"test": "vitest",
+		"predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
 	},
 	"dependencies": {
 		"react": "^19.0.0",
