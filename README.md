@@ -4,7 +4,7 @@
 
 En este simulador se muestra el intercambio de calor entre dos cuerpos representados por cubos. Cada cubo tiene un deslizador que nos permite controlar la temperatura y la masa de cada uno. Esto nos permite estudiar empíricamente cuál es la temperatura en que se alcanza el equilibrio térmico.
 
-En esta versión, ambos cuerpos tienen la misma capacidad calorífica, pero se plantea implementar esta prestación en futuras versiones. Si tienes algún inconveniente o sugerencia para este simulador, contacta a: **jjsanchezj@outlook.com**.
+Si tienes algún inconveniente o sugerencia para este simulador, contacta a: **jjsanchezj@outlook.com**.
 
 ---
 
@@ -12,9 +12,8 @@ En esta versión, ambos cuerpos tienen la misma capacidad calorífica, pero se p
 
 Este programa está hecho en Google Colaboratory.
 
-1. Para inicializar el programa, presiona **"Ctrl + F9"** o presiona el botón con el símbolo **(▶)**.
-2. Una vez ejecutado, en tu pantalla deben aparecer dos bloques de color **azul pálido**.
-3. Inicialmente, ambos bloques aparecen con una temperatura de **1 grado centígrado** y una masa de **100 gramos**.
+1. En tu pantalla deben aparecer dos bloques de color **azul pálido**.
+3. Inicialmente, ambos bloques aparecen con una temperatura de **0 grado centígrado** y una masa de **100 gramos**.
 4. Siéntete libre de modificar estas cantidades de acuerdo con la experiencia que desees realizar.
 5. Para iniciar el intercambio de calor, presiona el botón |**▶ Play**| que aparece debajo de los controles de temperatura.
 6. Observa el intercambio de calor en **tiempo real**.
