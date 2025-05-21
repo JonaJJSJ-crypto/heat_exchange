@@ -1,10 +1,11 @@
 # **Simulador de Equilibrio Térmico**
 
 ## por: Jonathan Joel Sánchez Jácome MSc.
+###Centro de Física. Universidad Central del Ecuador
 
 En este simulador se muestra el intercambio de calor entre dos cuerpos representados por cubos. Cada cubo tiene un deslizador que nos permite controlar la temperatura y la masa de cada uno. Esto nos permite estudiar empíricamente cuál es la temperatura en que se alcanza el equilibrio térmico.
 
-Si tienes algún inconveniente o sugerencia para este simulador, contacta a: **jjsanchezj@outlook.com**.
+Si tienes algún inconveniente o sugerencia para este simulador, contacta a: **jjsanchezj1@uce.edu.ec**.
 
 ---
 
