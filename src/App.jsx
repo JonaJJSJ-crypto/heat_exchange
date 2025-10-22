@@ -75,9 +75,11 @@ const linear_gradient = (start_hex, finish_hex = "#FFFFFF", n = 10) => {
 };
 // Define los datos de los materiales con sus valores asociados
 const materialData = [
-  { name: 'Hierro', value: 26.3 },
-  { name: 'Aluminio', value: 24.6 },
-  { name: 'Cobre', value: 24.8 },
+  { name: 'Hierro', value: 0.412 },
+  { name: 'Aluminio', value: 0.900 },
+  { name: 'Cobre', value: 0.386 },
+  { name: 'Laton', value: 0.380 },
+  { name: 'Agua', value: 4.186 },
 ];
 
 const App = () => {
